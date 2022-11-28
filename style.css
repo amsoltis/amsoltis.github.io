@@ -1,0 +1,230 @@
+img {
+    border-radius: 50%;
+    border: 0;
+    max-height: 30%;
+    max-width: 30%;
+    padding-top: 1rem;
+}
+
+.header {
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80);
+}
+
+body {
+    color: white;
+    margin: 0px;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1526289034009-0240ddb68ce3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80)
+}
+
+h1 {
+    color: black;
+    display: inline-block;
+    margin: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: clamp(20px, 10vw, 100px);
+    background-color: rgba(255, 255, 255, 80%);
+    border-radius: 10px;
+}
+
+.container{
+    margin: 1rem;
+}
+
+.NavBar{
+    padding-bottom: 1rem;
+}
+button {
+    display: inline-block;
+    background-color: rgba(128, 128, 128);
+    border-radius: 10px;
+    border: 4px double rgba(0, 148, 255, 40%);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px, 20px, 10px, 20px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#index{
+    text-indent: 2rem;
+}
+
+
+.Card {
+    /*Make uniform height*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*Make uniform height*/
+    height: 100%;
+    /*Make uniform height*/
+    min-height: 100%;
+    /*Make uniform height*/
+    max-height: 100%;
+    /*Make uniform height*/
+    flex: 1 1 auto;
+   
+    text-align: center;
+    display: inline-block;
+    margin: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgba(255, 255, 255, 80%);
+    border-radius: 10px;
+}
+
+.Card-details {
+    text-align: left;
+    width: 410px;
+    padding: 10px;
+    background-color: darkgray;
+    border-radius: 7px;
+}
+
+h3{
+    text-align: center;
+    margin: 0px;
+    padding: 1rem;
+}
+
+#contCards {
+    max-inline-size: 1000px;
+}
+
+h4{
+    margin:0px;
+}
+
+/* Style all font awesome icons */
+.fa {
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 20rem;
+    width: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+    /* Add a hover effect if you want */
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-linkedin {
+    background: #0072b1;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+
+}
+
+.fa-instagram {
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    color: white;
+}
+
+.fa-twitter {
+    background: #1DA1F2;
+    color: white;
+}
+
+.fa-envelope-o {
+    background: blue;
+    color: white;
+}
+
+.fa-phone {
+    background: blue;
+    color: white;
+}
+
+.fa-github {
+    background: #4078c0;
+    color: white;
+}
+
+#menu, #menu ul
+{
+	list-style: none;
+	border: 1px solid #000;
+	background-color: white;
+	margin: 0;
+    padding-inline-start: 0px;
+}
+
+#menu{
+    display:inline-flex;
+}
+#menu li
+{
+	float: left;
+	margin-right: 3px;
+	border: 1px solid #ecffec;
+	position: relative;
+}
+
+#menu ul
+{
+	position: absolute;
+	top: 25px;
+	left: -1px;
+	width: 200px;
+	padding: 0px;
+	display: none;
+}
+
+#menu ul li
+{
+	float: none;
+	margin: 0;
+	padding: 0;
+	line-height: 15px;
+}
+#menu a:link, #menu a:visited
+{
+	display: block;
+	font-family: Tahoma;
+	font-size: 0.75em;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+	color: #000;
+	padding: 5px;
+}
+#menu li:hover
+{
+	background-color: #ffd98a;
+	border: 1px solid #000;
+}
+#menu li:hover ul
+{
+	display: block;
+}
+    #menu ul li:hover {
+        background-color: #ffd98a;
+        border: 1px solid #000;
+    }
+        #menu ul li:hover ul {
+            display: block;
+        }
+    #menu ul li a:hover {
+        background-color: #ffd98a;
+        border: 1px solid #000;
+    }
+    
+
